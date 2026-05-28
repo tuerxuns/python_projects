@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Run Python File",
+    "command": "python",
+    "args": ["$ZED_FILE"],
+    "tags": ["python-run"]
+  },
+  {
+    "label": "Run with UV",
+    "command": "uv",
+    "args": ["run", "$ZED_FILE"],
+    "tags": ["python-uv"]
+  }
+]

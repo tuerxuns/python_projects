@@ -1,15 +1,7 @@
 {
-  "languages": {
-    "Python": {
-      "server_settings": {
-        "based-pyright": {
-          "settings": {
-            "python": {
-              "pythonPath": ".venv/bin/python"
-            }
-          }
+    "lsp": {
+        "basedpyright": {
+            "settings": {"python": {"pythonPath": ".venv/Scripts/python.exe"}}
         }
-      }
     }
-  }
 }
