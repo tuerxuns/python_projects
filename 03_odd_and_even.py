@@ -12,24 +12,24 @@ def isEven(number):
         return False
 
 
-assert isOdd(42) == False
+assert not isOdd(42)
 
-assert isOdd(9999) == True
+assert isOdd(9999)
 
-assert isOdd(-10) == False
+assert not isOdd(-10)
 
-assert isOdd(-11) == True
+assert isOdd(-11)
 
-assert isOdd(3.1415) == False
+assert not isOdd(3.1415)
 
-assert isEven(42) == True
+assert isEven(42)
 
-assert isEven(9999) == False
+assert not isEven(9999)
 
-assert isEven(-10) == True
+assert isEven(-10)
 
-assert isEven(-11) == False
+assert not isEven(-11)
 
-assert isEven(3.1415) == False
+assert not isEven(3.1415)
 
 print("All tests passed!")
