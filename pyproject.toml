@@ -1,0 +1,5 @@
+[project]
+name = "python_projects"
+version = "0.1.0"
+description = "A collection of Python practice exercises"
+requires-python = ">=3.14"
