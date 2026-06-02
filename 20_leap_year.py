@@ -10,10 +10,10 @@ def isLeapYear(year):
 
 
 if __name__ == "__main__":
-    assert isLeapYear(1999) == False
-    assert isLeapYear(2000) == True
-    assert isLeapYear(2001) == False
-    assert isLeapYear(2004) == True
-    assert isLeapYear(2100) == False
-    assert isLeapYear(2400) == True
+    assert not isLeapYear(1999)
+    assert isLeapYear(2000)
+    assert not isLeapYear(2001)
+    assert isLeapYear(2004)
+    assert not isLeapYear(2100)
+    assert isLeapYear(2400)
     print("All tests passed!")

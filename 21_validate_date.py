@@ -15,20 +15,14 @@ def isValidDate(year, month, day):
     return False
 
 
-assert isValidDate(1999, 12, 31) == True
-
-assert isValidDate(2000, 2, 29) == True
-
-assert isValidDate(2001, 2, 29) == False
-
-assert isValidDate(2029, 13, 1) == False
-
-assert isValidDate(1000000, 1, 1) == True
-
-assert isValidDate(2015, 4, 31) == False
-
-assert isValidDate(1970, 5, 99) == False
-
-assert isValidDate(1981, 0, 3) == False
-
-assert isValidDate(1666, 4, 0) == False
+if __name__ == "__main__":
+    assert isValidDate(1999, 12, 31)
+    assert isValidDate(2000, 2, 29)
+    assert not isValidDate(2001, 2, 29)
+    assert not isValidDate(2029, 13, 1)
+    assert isValidDate(1000000, 1, 1)
+    assert not isValidDate(2015, 4, 31)
+    assert not isValidDate(1970, 5, 99)
+    assert not isValidDate(1981, 0, 3)
+    assert not isValidDate(1666, 4, 0)
+    print("All tests passed!")
